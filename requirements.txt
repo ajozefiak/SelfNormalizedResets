@@ -1,0 +1,12 @@
+jax==0.5.2
+jaxlib==0.5.1
+flax==0.10.6
+optax==0.2.4
+numpy==2.0.2
+tensorflow==2.18.0
+jax==0.5.2
+jaxlib==0.5.1
+flax==0.10.6
+optax==0.2.4
+numpy==2.0.2
+tensorflow==2.18.0
