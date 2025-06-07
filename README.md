@@ -1,5 +1,9 @@
 # Self-Normalized Resets for Plasticity in Continual Learning
 
+<p align="center">
+<a href="https://colab.research.google.com/drive/18jHVgPTH4CM9hlvnMvapbd4CMgi1x_2Q?usp=share_link" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+</p>
+
 This repository provides the official implementation of Self-Normalized Resets for Plasticity in Continual Learning (ICLR 2025).
 
 ## Latest Update
@@ -10,6 +14,11 @@ This repository provides the official implementation of Self-Normalized Resets f
 - We have released code implementing SNR for both the MLP and CNN architectures.
 - We plan to release some technical documentation describing how SNR is precisely implemented, as Algorithm 1 in our paper provides a more general, or abstract, presentation of SNR, omitting implementation details.
 - Some artifacts remain from our original code base which implemented SNR and its competitor algorithms using Jax's vectorization in order to allow for massive hyperparameter sweeps to be run in parallel over a single GPU. This will remain and will be refactored as more functionality is released.
+
+## Example Usage (Running on Google Colab)
+Check out the Google Colab [here](https://colab.research.google.com/drive/18jHVgPTH4CM9hlvnMvapbd4CMgi1x_2Q?usp=share_link)!
+
+<a href="https://colab.research.google.com/drive/18jHVgPTH4CM9hlvnMvapbd4CMgi1x_2Q?usp=share_link" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ## Bibtex Citation
 To cite our work, you can use the following:
