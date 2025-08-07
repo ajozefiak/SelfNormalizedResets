@@ -134,7 +134,6 @@ def get_dataloader(text):
     
     return DataLoaderPermuteText   
 
-# ORIGINAL FUNCTION
 # Note need to pass algorithm/model data/config when refactoring of experiment is finished
 def run_experiment_PS(text, B, T, N, epochs, tasks, seed):
     
@@ -199,8 +198,9 @@ T = 128+1
 
 # Load all_shakespeare.txt
 # TODO: make sure that your path to all_shakespeare.txt is correct
-# dir_path = "../data/"
-path = dir_path + 'all_shakespeare.txt'                                                                                                                                                                                          
+# dir_path = ...
+path = os.path.join(dir_path, 'all_shakespeare.txt')
+
 with open(path, 'r') as f:
   text = f.read()
 
