@@ -7,6 +7,7 @@
 This repository provides the official implementation of Self-Normalized Resets for Plasticity in Continual Learning (ICLR 2025).
 
 ## Latest Update
+- [August 6, 2025]: The all_shakespeare.txt dataset and a temporary barebones implementation of the Permuted Shakespeare experiment have been released. 
 - [June 5, 2025]：An initial code base implementing SNR for the Permuted MNIST experiments is released. Code for convolutional layers is present. The remaining implementations and experiments will be released progressively. 
 
 
